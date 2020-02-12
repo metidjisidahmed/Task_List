@@ -1,0 +1,102 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+
+}
+#T_Li , #Tasks {
+    font-size:1.5rem;
+    margin:1.2rem;
+    margin-bottom: 0 !important;
+    padding-top: 0.5rem;
+}
+#T_new {
+    color:darkgray;
+    margin:0;
+}
+#span2 {
+    font-size: 0.8rem;
+    font-weight: lighter;
+    margin-left: 1rem;
+}
+input{
+    display: inline-block;
+    align-self: center;
+    width : 40vw;
+    margin-left:3rem;
+    margin-top : 0;
+    margin-bottom: 0.8rem;
+    background-color:#fafae3;
+    border: none;
+    border-bottom: 1px solid darkgray;
+}
+#Add,#Clear {
+    border: none;
+    font-size: 0.95rem;
+    font-weight: normal;
+    color : white;
+    padding:0.4rem 1.3rem;
+    margin-left:3rem;
+    margin-bottom: 0.5rem;
+}
+#Add {
+    background-color : green;
+}
+#Clear{
+    background-color : darkred;
+    margin-top: 0;
+}
+#Add:hover , #Clear:hover{
+    cursor: pointer;
+}
+
+#container {
+    width : 60vw;
+    background: #fafae3;
+    border : lightgrey 1px solid;
+
+    border-radius: 0.8rem;
+
+}
+li {
+    list-style-type:none;
+    padding:0.5rem 1rem;
+    padding-bottom: 0.1rem !important;
+    padding-right: 0.5rem !important;
+    font-size: 0.9rem;
+    border: 0.05rem solid lightgray;
+    width: 53vw;
+    display: inline-block ;
+    margin: 0 auto !important;
+}
+
+li p {
+    float: left;
+    /*display: inline;*/
+    margin :0;
+}
+li i {
+    float: right;
+    font-size: 1.1rem;
+    padding-bottom: 0.1rem;
+}
+li i:hover {
+    color:red;
+    cursor: pointer;
+    font-size:1.2rem;
+}
+button {
+    min-width:120px ;
+}
+ul {
+    line-height: 0.7rem;
+}
+#NO{
+    text-align: center;
+    font-weight: bold;
+    font-size:1rem !important;
+    line-height: 1rem!important;
+    color: orangered;
+}
